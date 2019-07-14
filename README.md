@@ -1,8 +1,6 @@
-# LAB - 
+# LAB - 07
 
-## Project Name
-
-### Author: Student/Group Name
+### Author: Jeremy Lee
 
 ### Links and Resources
 * [submission PR](https://github.com/jeremy-401-advanced-javascript/Lab07/pull/1)

@@ -5,8 +5,7 @@
 ### Author: Jeremy 
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
+* [submission PR](https://github.com/jeremy-401-advanced-javascript/Lab07/pull/2)
 
 ### Modules
 #### `404.js`

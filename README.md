@@ -1,22 +1,31 @@
-# LAB - 
+# LAB-07 
 
-## Project Name
+## MIDDLEWARE
 
-### Author: Student/Group Name
+### Author: Jeremy 
 
 ### Links and Resources
 * [submission PR](http://xyz.com)
 * [travis](http://xyz.com)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `404.js`
+##### page not fond response
+#### `500,js`
+##### page error response
+#### `errorOnD.js`
+##### page error response on d route
+#### `logger.js`
+##### data logging response
+#### `myHandler.js`
+##### custom hanlder response
+#### `requestTime.js`
+##### request time response
+#### `squareNumber.js`
+##### response with sqaure number
+#### `timeLogger.js`
+##### time logger response
 
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
@@ -25,14 +34,14 @@ Usage Notes or examples
 
 #### Running the app
 * `nodemon`
-* Endpoint: `:8080/api/v1`
-  * Returns a JSON object with request details
-
-  
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* Endpoint: `:8080/api/v1/a`
+  * Returns a `res.status(200).send('My handler request')`
+* Endpoint: `:8080/api/v1/b`
+  * Returns a `res.status(200).send(`Route B, ${req.number}`);`
+* Endpoint: `:8080/api/v1/c`
+  * Returns a `res.status(200).send('My handler request');`
+* Endpoint: `:8080/api/v1/d`
+  * Returns a `res.status(500).send(ERROR);`
 
 #### UML
-Link to an image of the UML for your application and response to events
+<img src="./assets/images/middlewareUml.jpeg" width="100">

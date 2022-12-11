@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/jeremy-401-advanced-javascript/Lab07#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jest": "^24.8.0",
     "mongodb-memory-server": "^5.1.5",
     "mongoose": "^5.6.4",
